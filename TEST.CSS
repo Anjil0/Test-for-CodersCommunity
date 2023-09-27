@@ -1,0 +1,79 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-left {
+    flex: 1;
+}
+
+.navbar-right {
+    flex: 1;
+    text-align: right;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333; /* Change the color to your preference */
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: 0 15px;
+    color: #333; /* Change the color to your preference */
+    font-weight: bold;
+}
+
+.nav-link:hover {
+    color: #007BFF; /* Change the color to your preference */
+}
+
+.nav-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #333; /* Change the color to your preference */
+    font-weight: bold;
+}
+
+.dropdown-content a:hover {
+    background-color: #f2f2f2; /* Change the background color on hover */
+}
+
+.nav-dropdown:hover .dropdown-content {
+    display: block;
+}
