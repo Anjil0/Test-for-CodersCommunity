@@ -1,11 +1,13 @@
 /* 0 styling */
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
+
 body {
   margin: 0;
   padding: 0;
-  background-color: #f2f3f5;
+  background-color: #dadbdc;
 }
 
 /* FOR NAVBAR */
@@ -65,8 +67,8 @@ body {
   color: #247bcc;
   background-color: #e4e4e4;
 }
-
 /* NAVBAR FINISHEDDD */
+/* -------------------------------------------------------------------------------*/
 /* NOW MID TITLE PARTS */
 .location {
   font-family: "Noto Sans KR", sans-serif;
@@ -84,7 +86,106 @@ body {
   letter-spacing: 0.5px;
 }
 
-.title h2{
-    margin-bottom: 8px;
-    font-size: 40px;
+.title h2 {
+  margin-bottom: 8px;
+  font-size: 40px;
+}
+
+/* -------------------------------------------------------------------------------*/
+/* Now Body Partsss  */
+/* end of body parts */
+/* -------------------------------------------------------------------------------*/
+/* For footersss */
+.footers {
+  font-family: "Inclusive Sans", sans-serif;
+  background-color: #ffffff;
+}
+
+.topfoot {
+  /* border: #363636 solid 1px; */
+  height: 300px;
+  display: flex;
+  background-color: #ffffff;
+  color: #656565;
+}
+.leftfooter {
+  width: 20%;
+  margin-left: 130px;
+  text-align: justify;
+}
+
+.leftmidfooter {
+  width: 20%;
+  text-align: justify;
+  margin-left: 20px;
+}
+
+.rightmidfooter {
+  width: 20%;
+  text-align: justify;
+  margin-left: 20px;
+}
+.rightfooter {
+  width: 20%;
+  margin: 0px 130px 0 20px;
+  text-align: justify;
+}
+
+.footeremail {
+  display: flex;
+}
+.emailinput {
+  background-color: #bdbdbd;
+  margin-top: 20px;
+  width: 200px;
+  height: 35px;
+  /* position: relative; */
+  border: #934242 solid 1px;
+  border-radius: 5px 0px 0px 5px;
+}
+
+.emailicon {
+  background-color: #3169b2;
+  margin-top: 20px;
+  width: 38px;
+  border-radius: 0px 5px 5px 0px;
+  height: 37px;
+  border: #636363 solid 1px;
+}
+.fa-envelope {
+  color: #ffffff;
+  font-size: 22px;
+  margin: 27px 0 0 -32px;
+}
+
+.socialmedias {
+  margin-top: 50px;
+  font-size: 35px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.endfooter {
+  margin-top: 2px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  background-color: #858f97;
+}
+.endfooter p {
+  color: #6b6b6b;
+  font-size: 20px;
+  margin: 130px;
 }
