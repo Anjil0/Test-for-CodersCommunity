@@ -129,7 +129,7 @@ body {
 
 /* middle side of midd body */
 .imgmidback {
-  height: 235px;
+  height: 282px;
   background-color: #767575;
   border-radius: 10px;
   display: flex;
@@ -187,11 +187,11 @@ body {
   text-decoration: underline;
 }
 
-.rightfeed{
+.rightfeed {
   margin: 40px 0 0 10px;
 }
 
-.feedbox{
+.feedbox {
   margin-top: -5px;
   display: flex;
   flex-direction: row;
@@ -200,7 +200,7 @@ body {
   gap: 4px;
 }
 
-.outbox{
+.outbox {
   background-color: #feffff;
   width: 60px;
   height: 60px;
@@ -210,19 +210,19 @@ body {
   justify-content: center;
 }
 
-.inbox{
+.inbox {
   background-color: #e2e2e2;
   width: 50px;
   height: 50px;
   border-radius: 5px;
 }
 
-.blue{
-  border:2px blue solid;
+.blue {
+  border: 2px blue solid;
 }
 
 /* for popular tagss */
-.poptags{
+.poptags {
   margin-left: 10px;
 }
 
@@ -235,7 +235,6 @@ body {
   justify-content: center;
 }
 
-
 .cutoutradius::before {
   content: "";
   position: absolute;
@@ -247,7 +246,6 @@ body {
 }
 
 .tags {
- 
   display: grid;
   font-size: 12px;
   gap: 16px;
@@ -257,6 +255,48 @@ body {
 .tags i {
   font-size: 4px;
   margin-right: 10px;
+}
+
+/* commenting parts */
+
+.commentdetails {
+  margin: -40px 0 0 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #535353;
+}
+
+.commentdetails input {
+  font-family: "Inclusive Sans", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 300px;
+  padding-left: 10px;
+  border-radius: 5px;
+  height: 40px;
+  box-shadow: #2998c9;
+}
+
+textarea {
+  font-family: "Inclusive Sans", sans-serif;
+  resize: none;
+  border-radius: 5px;
+  height: 100px;
+  width: 400px;
+  padding-top: 10px;
+}
+
+.button {
+  font-family: "Inclusive Sans", sans-serif;
+  height: 30px;
+  width: 70px;
+  margin: 5px auto 30px 170px;
+  font-size: 19px;
+  border-radius: 5px;
+  background-color: #3b86c5;
+  color: #ffffff;
+  border: none;
 }
 
 /* end of body parts */
