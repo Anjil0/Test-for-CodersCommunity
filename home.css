@@ -3,7 +3,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inclusive+Sans&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&display=swap");
 body {
   margin: 0;
   padding: 0;
@@ -93,14 +93,15 @@ body {
 
 /* -------------------------------------------------------------------------------*/
 /* Now Body Partsss  */
-.midbodyleft {
+.fullmidbody {
+  font-family: "Inclusive Sans", sans-serif;
   display: grid;
   justify-content: space-evenly;
-  margin: 10px 20rem;
+  margin: 50px 20rem;
   grid-template-columns: 1fr 2fr 1fr;
 }
 
-.imageadminback{
+.imageadminback {
   border-radius: 5px;
   background-color: #3b86c5;
   width: 85px;
@@ -111,55 +112,53 @@ body {
   align-items: center;
   justify-content: center;
 }
-.adminimg{
+.adminimg {
   width: 65%;
   margin-left: 7px;
 }
 
-.adminside{
+.adminside {
   font-size: 14px;
   color: #636363;
-margin-top: -5px;
+  margin-top: -5px;
 }
 
-.fa-admin{
+.fa-admin {
   margin-right: 10px;
 }
 
-
 /* middle side of midd body */
-.imgmidback{
+.imgmidback {
   height: 235px;
-  background-color: #ffffff;
+  background-color: #767575;
   border-radius: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 95%;
 }
-.midimage{
+.midimage {
   width: 93%;
   border-radius: 10px;
 }
 
-.midbody{
-  width:101%;
+.midbody {
+  font-family: "Gabarito", cursive;
+  color: #636363;
+  width: 101%;
   text-align: justify;
 }
-.midbody h4{
+
+.midbody h4 {
   color: #3169b2;
 }
 
-
-
-
-
-
 /* right side of mid */
-.rightmid{
-
+.rightmid {
+  color: #636363;
+  font-family: "Inclusive Sans", sans-serif;
+  margin-left: 20px;
 }
-
 
 .searchtabup {
   height: 33px;
@@ -180,8 +179,85 @@ margin-top: -5px;
   border: none;
 }
 
+.blogcat input {
+  margin-right: 6px;
+}
+
+.blogcat p {
+  text-decoration: underline;
+}
+
+.rightfeed{
+  margin: 40px 0 0 10px;
+}
+
+.feedbox{
+  margin-top: -5px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 4px;
+}
+
+.outbox{
+  background-color: #feffff;
+  width: 60px;
+  height: 60px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.inbox{
+  background-color: #e2e2e2;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+}
+
+.blue{
+  border:2px blue solid;
+}
+
+/* for popular tagss */
+.poptags{
+  margin-left: 10px;
+}
+
+.cutoutradius {
+  height: 30px;
+  background-color: #feffff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 
+.cutoutradius::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -10px;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  border-right: 10px solid #feffff;
+}
+
+.tags {
+ 
+  display: grid;
+  font-size: 12px;
+  gap: 16px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.tags i {
+  font-size: 4px;
+  margin-right: 10px;
+}
 
 /* end of body parts */
 /* -------------------------------------------------------------------------------*/
